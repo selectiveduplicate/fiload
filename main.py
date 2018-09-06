@@ -7,11 +7,9 @@
 #****************************************************************
 
 #from dropbox.exceptions import AuthError
-from shutil import copyfile
 from subprocess import call
 import os
 import re
-import sys
 
 #directory where files will uploaded to Dropbox
 dirname = '/home/Documents/'    
