@@ -11,13 +11,19 @@
 	```bash
 	cd ~/fiload
 	```
-3. Make executable, if your prefer:
+3. Make the Bash script executable:
 	```bash
-	chmod u+x fiload.py
+	chmod u+x zipit.sh
 	```
-4. Run:
+   For convenience, make ``fiload.py`` executable too.
+   
+4. Run by:
 	```bash
 	./fiload.py
+	```
+	or
+	```bash
+	python3 fiload.py
 	```
     
 # Usage
