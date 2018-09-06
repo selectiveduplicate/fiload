@@ -15,7 +15,7 @@ if __name__ == '__main__':
     print('2. Approve fiload so that it can access your account(you might have to log in first). ' 
             'Then copy the authorization code.')
     print('3. Copy the authorization code given.')
-    auth_code = input("4. Enter the code here: ", ).strip()
+    auth_code = input("4. Enter the code below: ", ).strip()
 
     try:
         oauth_result = auth_flow.finish(auth_code)
