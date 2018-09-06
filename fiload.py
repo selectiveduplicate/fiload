@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 if __name__ == '__main__':
     from dropbox import DropboxOAuth2FlowNoRedirect, Dropbox
     import upload
@@ -7,9 +9,9 @@ if __name__ == '__main__':
 
     #start the auth process
     authorize_url = auth_flow.start()
-    #take the user to the autorize page
+    print('1. Your browser will take you to the authorization webpage.')
+    #take the user to the authorization page
     webbrowser.open(authorize_url)
-    print('1. Your browser will now take you to the authorization webpage.')
     print('2. Approve fiload so that it can access your account(you might have to log in first). ' 
             'Then copy the authorization code.')
     print('3. Copy the authorization code given.')
@@ -24,3 +26,4 @@ if __name__ == '__main__':
     upload.backup(Dropbox(oauth_result.access_token))
     import main
     print('Uploading done!')
+    
