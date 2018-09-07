@@ -11,13 +11,17 @@
 	```bash
 	cd ~/fiload
 	```
-3. Make the Bash script executable:
+3. Install as per ``requirements.txt``:
+	```bash
+	pip install -r requirements.txt
+	```
+4. Make the Bash script executable:
 	```bash
 	chmod u+x zipit.sh
 	```
    For convenience, make ``fiload.py`` executable too.
    
-4. Run by:
+5. Run by:
 	```bash
 	./fiload.py
 	```
