@@ -27,4 +27,4 @@ for files in localfiles:
     if os.path.exists(files):   #checking if the path exists
         if os.path.isdir(files):    #if exists, check if it's a file or a dir
             no_of_dirs += 1
-            call(['./zipit.sh', re.sub(r'[\s+]', r'\ ', files)]) # in case path contains whitespaces
+            call(["bash", "zipit.sh", re.sub(r'[\s+]', r'\ ', files)]) # in case path contains whitespaces
