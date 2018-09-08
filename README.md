@@ -15,12 +15,10 @@
 	```bash
 	pip install -r requirements.txt
 	```
-4. Make the Bash script executable:
+4. Make ``fiload.py`` executable for convenience:
 	```bash
-	chmod u+x zipit.sh
+	chmod u+x fiload.py
 	```
-   For convenience, make ``fiload.py`` executable too.
-   
 5. Run by:
 	```bash
 	./fiload.py
